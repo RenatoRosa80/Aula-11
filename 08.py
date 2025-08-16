@@ -1,10 +1,4 @@
-"""5. Faça um Programa que converta metros para centímetros."""
-"""6. Faça um Programa que peça o
-raio de um círculo, calcule e mostre sua área."""
-"""7. Faça um Programa que calcule a área de um quadrado, 
-em seguida mostre o dobro desta área para o usuário."""
-
-def convert_meters_to_centimeter():
+def converter_metro_para_centimetros():
     metros = float(input('Metros: '))
     centimetros = metros * 100
     print(f'{metros} m = {centimetros} cm') 
@@ -33,14 +27,14 @@ def area_quadrado():
 def menu():
     while True:
         print("\n -- Menu de opções: ")
-        print(" 1 - convert_meters_to_centimeter ")
+        print(" 1 - converter_metro_para_centimetros ")
         print(" 2 . area_circulo ")  
         print(" 3 - area_quadrado ")
         print(" 0 -  sair ")
 
         opcao = input(" Escolha um aopção: ")
         if opcao == "1":
-            convert_meters_to_centimeter()
+            converter_metro_para_centimetros()
         elif opcao == "2":
             area_circulo()  
         elif opcao == "3":

@@ -12,7 +12,7 @@ def calcular_media_notas():
 
 # Corpo do programa
 
-#calcular_media_notas()
+calcular_media_notas()
 
 
 
